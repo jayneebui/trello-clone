@@ -1,9 +1,10 @@
-import { ColumnContainer, ColumnTitle, CardContainer  } from "./styles"
+import {ColumnContainer, ColumnTitle, CardContainer} from './styles';
 
 type CardProps = {
-   text: string
-}
+  text: string;
+  id: string;
+};
 
-export const Card = ({ text }: CardProps) => {
-   return <CardContainer>{text}</CardContainer>
-}
+export const Card = ({text}: CardProps) => {
+  return <CardContainer>{text}</CardContainer>;
+};
